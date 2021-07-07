@@ -3,15 +3,14 @@ package com.noobs.cadastro
 import android.content.DialogInterface
 import android.content.Intent
 import android.graphics.Bitmap
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
 import android.util.Log
-import android.widget.*
+import android.widget.Button
+import android.widget.EditText
+import android.widget.ImageView
 import androidx.appcompat.app.AlertDialog
-import com.joseffe.aula05.Usuario
-import kotlinx.android.synthetic.main.activity_main.*
-import java.util.*
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
