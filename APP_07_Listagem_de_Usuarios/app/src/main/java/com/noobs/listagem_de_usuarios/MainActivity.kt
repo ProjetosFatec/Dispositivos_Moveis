@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val lista = mutableListOf<Usuario>(
             Usuario(nome="Dario", email="joseffe@gmail.com", stack= Stack.BACKEND, senioridade= Senioridade.SENIOR, foto=resources.getDrawable(R.drawable.ic_launcher_background)),
             Usuario(nome="Nicolas", email="mac@gmail.com", stack= Stack.FULLSTACK, senioridade= Senioridade.JUNIOR, foto=resources.getDrawable(R.drawable.robo)),
-            Usuario(nome="Joana", email="joana@gmail.com", stack= Stack.FRONTEND, senioridade= Senioridade.PLENO)
+            Usuario(nome="Lauro", email="joana@gmail.com", stack= Stack.FRONTEND, senioridade= Senioridade.PLENO)
         )
 
         rv.adapter = UsuarioAdapter(lista)
