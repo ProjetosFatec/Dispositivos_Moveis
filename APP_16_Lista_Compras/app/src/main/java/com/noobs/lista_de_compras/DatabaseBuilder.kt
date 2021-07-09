@@ -9,9 +9,7 @@ object DatabaseBuilder {
     fun getAppDatabase(context: Context): AppDatabase?{
         if (instancia==null){
             synchronized(AppDatabase::class){
-                instancia = Room.databaseBuilder(context.applicationContext, AppDatabase::class.java, "AppDb")
-                    .fallbackToDestructiveMigration()
-                    .build()
+                instancia = Room.databaseBuilder(context.applicationContext, AppDatabase::class.java, "AppDb").build()
             }
         }
         return instancia
