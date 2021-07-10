@@ -1,0 +1,2 @@
+rootProject.name = "CadastroNotasComFoto"
+include ':app'
