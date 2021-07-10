@@ -2,12 +2,11 @@ package com.noobs.lista_programadores
 
 import android.content.Intent
 import android.graphics.Bitmap
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
 import android.view.View
 import android.widget.*
-import kotlinx.android.synthetic.main.activity_cadastro.*
+import androidx.appcompat.app.AppCompatActivity
 
 class CadastroActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
     lateinit var stack: Stack
