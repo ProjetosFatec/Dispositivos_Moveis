@@ -14,15 +14,10 @@ class MainActivity : AppCompatActivity() {
         val rv = findViewById<RecyclerView>(R.id.rvNotas)
 
         val lista = mutableListOf<Nota>(
-            Nota(titulo = "Hey", descricao = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."),
-            Nota(
-                titulo = "There",
-                descricao = "Integer sit amet ligula lacinia, condimentum justo nec, lacinia mauris."
-            ),
-            Nota(
-                titulo = "Test",
-                descricao = "Morbi sollicitudin libero sed metus interdum lacinia. In non convallis neque."
-            )
+            Nota(titulo = "Encontro DEV", descricao = "Encontro Grupo Noobs para fazer as atividades."),
+            Nota(titulo = "Jogo", descricao = "Assistir Final da copa América - 21:00"),
+            Nota(titulo = "Vacina", descricao = "segunda-feira, dia 11 de julho, tomar vacina coronavac"),
+            Nota(titulo = "Github", descricao = "Enviar todas os APPs no GitHub até as 23:59")
         )
 
         rv.adapter = NotaAdapter(lista)
