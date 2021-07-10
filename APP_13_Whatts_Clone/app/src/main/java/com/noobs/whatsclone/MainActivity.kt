@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         menu = findViewById(R.id.tblMenu)
         visualizador = findViewById(R.id.vpgVisualizador)
 
-        visualizador.adapter = PagerAdapter(supportFragmentManager)
+        visualizador.adapter = androidx.viewpager.widget.PagerAdapter(supportFragmentManager)
 
         menu.setupWithViewPager(visualizador)
     }
